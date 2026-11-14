@@ -1,6 +1,6 @@
 # SMPConnect Proprietary License
 
-**Candidate awaiting explicit owner review and approval.** Prepared for SMPConnect 0.1.0 Beta. This text becomes applicable when the Licensor expressly adopts it for an official release. Publishing this candidate does not publish the plugin or grant access to private source code. No professional legal approval is claimed.
+These are the official license terms for SMPConnect 0.1.0 Beta, applicable to official releases expressly distributed under this license.
 
 **Licensor:** Kim Wallgren, operating under the brand KWStudio Gaming. The legal licensor is Kim Wallgren, a natural person operating a Swedish sole proprietorship; KWStudio Gaming is the operating brand, not a separate incorporated legal entity.
 
@@ -30,7 +30,7 @@ The Licensor may distribute official releases directly or expressly authorize pl
 
 For an authorized submission, these restrictions permit the hosting, copying, caching, technical processing, modification, display, mirroring, reproduction and delivery operations that the Licensor validly grants to the platform and its service providers under the applicable platform terms. They also preserve any rights those terms validly grant recipients, including applicable continued use of downloaded copies or platform-hosted pack distribution. Such rights take precedence over conflicting restrictions in this license to the extent of that grant. Removing an official listing does not retroactively cancel rights preserved by the platform terms.
 
-This exception does not independently authorize unrelated mirrors, resale or public modified versions. Official project locations must be announced by the Licensor; no download link is asserted in this candidate. This license neither replaces platform terms nor grants rights belonging to third parties.
+This exception does not independently authorize unrelated mirrors, resale or public modified versions. Official project locations must be announced by the Licensor; no download link is asserted in this license. This license neither replaces platform terms nor grants rights belonging to third parties.
 
 ## 5. Third-party components and notices
 
