@@ -1,0 +1,84 @@
+name: Bug report
+description: Report a reproducible SMPConnect problem without private information.
+title: "[Bug] "
+labels: [bug, needs-triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This report is PUBLIC. Do not include credentials, tokens, IP addresses, player identifiers,
+        databases, private chat, complete logs or proprietary source. Report security vulnerabilities
+        through Security > Advisories > Report a vulnerability, never here. See SECURITY.md.
+  - type: input
+    id: smpconnect_version
+    attributes:
+      label: SMPConnect version
+      placeholder: "0.1.0 Beta"
+    validations:
+      required: true
+  - type: input
+    id: minecraft_version
+    attributes:
+      label: Minecraft version
+      placeholder: "26.3"
+    validations:
+      required: true
+  - type: input
+    id: paper_build
+    attributes:
+      label: Paper version and build
+      placeholder: "26.3 build 249"
+    validations:
+      required: true
+  - type: input
+    id: java_version
+    attributes:
+      label: Java version
+      description: Include the runtime version and vendor, without machine paths or account names.
+      placeholder: "Java 25.0.3, Amazon Corretto"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Problem description
+      description: Briefly describe what is going wrong, without private server or player information.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Use numbered steps and anonymous labels such as Player A and Player B.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+      description: Include the exact relevant feedback, with identifying information removed.
+    validations:
+      required: true
+  - type: textarea
+    id: sanitized_logs
+    attributes:
+      label: Sanitized log excerpt
+      description: Optional short excerpt only. Remove secrets, IPs, identifiers and private paths. Never attach a database or full log.
+      render: text
+    validations:
+      required: false
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Public-report safety
+      options:
+        - label: This is not a security vulnerability report, and I removed sensitive information from everything included.
+          required: true
+        - label: I checked existing issues for the same problem.
+          required: true
