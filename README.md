@@ -20,7 +20,7 @@ No client mod, resource pack, companion plugin or external database is required.
 
 ## Supported beta environment
 
-**Minecraft 26.3 / Paper build 249 / Java 25.** Other builds, server implementations and Folia are not advertised as tested.
+**Minecraft 26.3 / Paper build 249 / 64-bit Java 25.** The verified runtime is Windows 11 amd64 with 64-bit Corretto Java 25.0.3+9. All 32-bit JVMs are unsupported. Other operating systems, architectures, Paper builds, server implementations and Folia have not been verified.
 
 When an authorized release becomes available: stop Paper, back up the complete plugins/SMPConnect/ data directory and matching JAR, install the official JAR into plugins/, and restart normally. Wait for readiness, then use /connect. Do not use /reload or hot reloaders.
 
@@ -54,6 +54,6 @@ No Community Projects, matchmaking, friends/guilds, cross-server or Discord feat
 
 ## License and publisher
 
-Published by **KWStudio Gaming**. The intended product license is **free to use, proprietary / All Rights Reserved**, with final legal terms pending approval. Source code remains private; this support repository is not an open-source release or a license grant for the plugin. Third-party components retain their own licenses. No support response time, release date or maintenance period is promised.
+Published by **KWStudio Gaming**, the operating brand of **Kim Wallgren**. The owner-approved terms for official SMPConnect 0.1.0 Beta releases are in [SMPConnect Proprietary License](LICENSE.md). The plugin is free to use under those terms, proprietary and not open source. Source code remains private; this support repository does not distribute plugin binaries or grant additional rights to the plugin. Third-party components retain their own licenses. No support response time, release date or maintenance period is promised.
 
 Codex generated substantial portions of the implementation, tests and documentation under owner direction and review. The plugin does not use generative AI at runtime. No images, testimonials or usage statistics are claimed here.
